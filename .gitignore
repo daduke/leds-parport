@@ -1,0 +1,12 @@
+.*.cmd
+
+Module.symvers
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/leds-parport.*
+debian/leds-parport/
+leds-parport.o
+leds-parport.ko
+leds-parport.mod*
+modules.order
