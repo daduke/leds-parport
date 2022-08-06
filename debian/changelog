@@ -1,0 +1,5 @@
+leds-parport (1.0.0-0) stable; urgency=low
+
+  * Initial package.
+
+ -- Christian Herzog <daduke@daduke.org>  Sat, 6 Aug 2022 11:45:41 +0200

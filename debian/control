@@ -1,0 +1,14 @@
+Source: leds-parport
+Section: utils
+Priority: optional
+Maintainer: Christian Herzog <daduke@daduke.org>
+Build-Depends: debhelper (>= 9), dkms
+Standards-Version: 3.7.3
+Homepage: https://dev.openwrt.org/ 
+
+Package: leds-parport
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Source for LEDs connected to the data pins of a parallel port.
+ This package provides the source code for the leds-parport kernel module.
+ .
