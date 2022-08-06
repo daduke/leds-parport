@@ -1,7 +1,7 @@
 leds-parport
 ============
 
-For a homebrew router project I was looking for a way to visualize system status (load, HD access) and network activity. The board offers a good old parallel port, so I decided to use that one. This driver hooks into the Linux `leds` framework and provides 12 LED output pins that can be used with all the nice LED triggers (`heartbeat`, `netdev` etc) the Linux kernel offers. The LED names (under `/sys/class/leds/parport:`) should be self-explanatory and correspond directly to the parallel port pin names.
+For a homebrew router project I was looking for a way to visualize system status (load, HD access) and network activity. The board offers a good old parallel port, so I decided to use that one. This driver hooks into the Linux `leds` framework and provides 12 LED output pins (8 on the data port and 4 on the control port) that can be used with all the nice LED triggers (`heartbeat`, `netdev` etc) the Linux kernel offers. The LED names (under `/sys/class/leds/parport:`) should be self-explanatory and correspond directly to the parallel port pin names.
 
 Installation
 ------------
